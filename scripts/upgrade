@@ -43,7 +43,7 @@ ynh_add_nginx_config
 
 ynh_add_systemd_config
 
-yunohost service add "$app" --description="client for PostgreSQL databases" --log="/var/log/$app/$app.log"
+yunohost service add "$app" --description="Client for PostgreSQL databases" --log="/var/log/$app/$app.log"
 
 #=================================================
 # START SYSTEMD SERVICE
