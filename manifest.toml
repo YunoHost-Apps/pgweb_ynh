@@ -53,7 +53,7 @@ ram.runtime = "50M"
     armhf.url = "https://github.com/sosedoff/pgweb/releases/download/v0.16.0/pgweb_linux_arm_v5.zip"
     armhf.sha256 = "763f91a8eae2ba9393e4e70618448674c3194cfa527bf9b55ec04123aa4c0baf"
 
-    autoupdate.strategy = "latest_github_tag"
+    #autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
 
