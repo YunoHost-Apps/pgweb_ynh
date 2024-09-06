@@ -44,7 +44,8 @@ ram.runtime = "50M"
 
     [resources.sources.main]
     in_subdir = false
-    extract = true
+    extract = false
+
     rename = "pgweb"
     amd64.url = "https://github.com/sosedoff/pgweb/releases/download/v0.16.0/pgweb_linux_amd64.zip"
     amd64.sha256 = "542cace3c14dc525ad6cf65894d72ce8cf468aa1322ab22c52ca3c8e7bc9c8f8"
