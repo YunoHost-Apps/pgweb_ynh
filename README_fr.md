@@ -21,7 +21,6 @@ Pgweb est un explorateur de bases de données Web pour PostgreSQL, écrit en Go,
 ### Fonctionnalités
 
 - Multiplateforme : Mac/Linux/Windows (64 bits).
-- Installation simple (distribuée sous forme de binaire unique).
 - Aucune dépendance.
 - Fonctionne avec PostgreSQL 9.1+.
 - Prend en charge les tunnels SSH natifs.
