@@ -1,0 +1,67 @@
+#:schema https://raw.githubusercontent.com/YunoHost/apps/master/schemas/manifest.v2.schema.json
+
+packaging_format = 2
+
+id = "pgweb"
+name = "Pgweb"
+description.en = "Client for PostgreSQL databases"
+description.fr = "Client pour bases de données PostgreSQL"
+
+version = "0.16.0~ynh1"
+
+maintainers = ["eric_G"]
+
+[upstream]
+license = "MIT"
+website = "https://sosedoff.github.io/pgweb/"
+demo = "https://pgweb-demo.fly.dev/"
+code = "https://github.com/sosedoff/pgweb"
+
+[integration]
+yunohost = ">= 11.2.30"
+architectures = "all"
+multi_instance = true
+
+ldap = false
+
+sso = false
+
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+[resources]
+
+    [resources.sources]
+
+    [resources.sources.main]
+    in_subdir = false
+    extract = false
+    rename = "pgweb"
+    url = "https://github.com/sosedoff/pgweb/releases/download/v0.16.0/pgweb_linux_amd64.zip"
+    sha256 = "542cace3c14dc525ad6cf65894d72ce8cf468aa1322ab22c52ca3c8e7bc9c8f8"
+
+    autoupdate.strategy = "latest_github_tag"
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.permissions]
+    main.url = "/"
+
+    [resources.ports]
+
+    #[resources.apt]
+    #packages = ""
+
+    #[resources.database]
+    #type = ""
