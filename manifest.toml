@@ -43,12 +43,9 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    in_subdir = false
-    extract = false
-    rename = "pgweb"
-    url = "https://github.com/sosedoff/pgweb/releases/download/v0.16.0/pgweb_linux_amd64.zip"
-    sha256 = "542cace3c14dc525ad6cf65894d72ce8cf468aa1322ab22c52ca3c8e7bc9c8f8"
 
+    url = "https://github.com/sosedoff/pgweb/archive/refs/tags/v0.16.0.tar.gz"
+    sha256 = "f2974238977d4f405e37918c1158650d34e67f6cfc1b7cb9d3d88ae5881a6d58"
     autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
