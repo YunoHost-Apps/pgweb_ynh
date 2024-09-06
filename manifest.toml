@@ -54,9 +54,6 @@ ram.runtime = "50M"
     armhf.sha256 = "763f91a8eae2ba9393e4e70618448674c3194cfa527bf9b55ec04123aa4c0baf"
 
     autoupdate.strategy = "latest_github_tag"
-    autoupdate.asset.amd64 = ".*\.amd64.zip"
-    autoupdate.asset.arm64= ".*\.arm64.zip"
-    autoupdate.asset.armhf = ".*\.arm_v5.zip"
 
     [resources.system_user]
 
