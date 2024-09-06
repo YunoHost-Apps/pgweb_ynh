@@ -55,7 +55,7 @@ ram.runtime = "50M"
 
     autoupdate.strategy = "latest_github_tag"
     autoupdate.asset.amd64 = ".*\.amd64.zip"
-    autoupdate.asset.i386 = ".*\.arm64.zip"
+    autoupdate.asset.arm64= ".*\.arm64.zip"
     autoupdate.asset.armhf = ".*\.arm_v5.zip"
 
     [resources.system_user]
