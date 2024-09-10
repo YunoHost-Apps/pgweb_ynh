@@ -7,7 +7,7 @@ Type=simple
 User=__APP__
 Group=__APP__
 WorkingDirectory=__INSTALL_DIR__/
-ExecStart=__INSTALL_DIR__/pgweb --listen=__PORT__ --host 127.0.0.1
+ExecStart=__INSTALL_DIR__/pgweb --listen=__PORT__ --host 127.0.0.1 -s
 #--sessions
 
 ### Depending on specificities of your service/app, you may need to tweak these
