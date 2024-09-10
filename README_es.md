@@ -30,7 +30,7 @@ Pgweb is a web-based database explorer for PostgreSQL, written in Go. Distribute
 - Server bookmarks.
 
 
-**Versión actual:** 0.16.0~ynh1
+**Versión actual:** 0.16.1~ynh1
 
 **Demo:** <https://pgweb-demo.fly.dev/>
 
@@ -47,7 +47,7 @@ Pgweb is a web-based database explorer for PostgreSQL, written in Go. Distribute
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/pgweb_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/pgweb_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 
