@@ -7,7 +7,7 @@ name = "Pgweb"
 description.en = "Client for PostgreSQL databases"
 description.fr = "Client pour bases de données PostgreSQL"
 
-version = "0.16.1~ynh1"
+version = "0.16.1~ynh2"
 
 maintainers = []
 
@@ -19,6 +19,7 @@ code = "https://github.com/sosedoff/pgweb"
 
 [integration]
 yunohost = ">= 11.2.30"
+helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
 
@@ -56,9 +57,3 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.ports]
-
-    #[resources.apt]
-    #packages = ""
-
-    #[resources.database]
-    #type = ""
