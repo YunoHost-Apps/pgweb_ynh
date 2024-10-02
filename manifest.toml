@@ -7,7 +7,7 @@ name = "Pgweb"
 description.en = "Client for PostgreSQL databases"
 description.fr = "Client pour bases de données PostgreSQL"
 
-version = "0.16.1~ynh1"
+version = "0.16.1~ynh2"
 
 maintainers = []
 
