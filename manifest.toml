@@ -7,7 +7,7 @@ name = "Pgweb"
 description.en = "Client for PostgreSQL databases"
 description.fr = "Client pour bases de données PostgreSQL"
 
-version = "0.16.1~ynh2"
+version = "0.16.2~ynh1"
 
 maintainers = []
 
@@ -45,8 +45,8 @@ ram.runtime = "50M"
 
     [resources.sources.main]
 
-    url = "https://github.com/sosedoff/pgweb/archive/refs/tags/v0.16.1.tar.gz"
-    sha256 = "4e8bedc49c5bfad0223cf720568184a503d89f06820503c24c62fb404b929062"
+    url = "https://github.com/sosedoff/pgweb/archive/refs/tags/v0.16.2.tar.gz"
+    sha256 = "4120b03ee5047d8ea5bc9fd05629fb60bbdf5eca6a0e8b157fa4322ed54844ec"
     autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
