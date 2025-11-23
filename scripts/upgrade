@@ -1,6 +1,5 @@
 #!/bin/bash
 
-source _common.sh
 source /usr/share/yunohost/helpers
 
 #=================================================
@@ -22,13 +21,10 @@ ynh_setup_source --dest_dir="$install_dir/build" --full_replace
 #=================================================
 ynh_script_progression "Building app..."
 
-ynh_go_install
-
 pushd $install_dir/build/
 	ynh_hide_warnings ynh_exec_as_app CGO_ENABLED=0 go build -ldflags='-s -w' -o $install_dir/
 popd
 
-ynh_go_remove
 ynh_safe_rm "$install_dir/build/"
 ynh_safe_rm "$install_dir/.cache/"
 ynh_safe_rm "$install_dir/go/"
